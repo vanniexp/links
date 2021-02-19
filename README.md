@@ -1,2 +1,2 @@
 # links
-Página de links feita em html/css.
+Página de links para redes sociais feita em html/css.
