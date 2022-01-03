@@ -1,9 +1,9 @@
 :root {
   --white: #f3f3f3;
-  --purple-primary: #573b63;
-  --purple-secundary: #a55fbd;
+  --purple-primary: #8432EB;
+  --purple-secundary: #D132EB;
   --fontcolor: #a3a3a3;
-  --background: #2f3437;
+  --background: #1F1F1F;
 }
 
 * {
@@ -25,6 +25,7 @@ body {
 h1 {
   font-size: 2.3rem;
   margin-bottom: 0.8rem;
+  font-weight: 700;
   color: var(--purple-secundary);
 }
 
@@ -61,7 +62,7 @@ h2 {
 /* LINKS */
 
 .links {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .links a {
