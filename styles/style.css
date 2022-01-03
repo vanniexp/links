@@ -1,10 +1,9 @@
 :root {
-    --white: #FFFFFF;
-    --purple: #8502BB;
-    --roxo-escuro: #4104A8;
-    --cinza: #858585;
-    --rosa: #F208A4;
-    --azul: #00CAF3;
+    --white: #f3f3f3;
+    --purple-primary: #573b63;
+    --purple-secundary: #A55FBD;
+    --fontcolor: #858585;
+    --background: #2F3437;
   }
     
   *{
@@ -13,7 +12,7 @@
   
   body {
       font-family: "Bellota", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--branco);
+      background-color: var(--background);
       height: 100vh;
       display: flex;
       flex-direction: column;
@@ -26,12 +25,12 @@
     h1 {
       font-size: 2.3rem;
       margin-bottom: 0.8rem;
-      color:var(--roxo-vivo);
+      color:var(--purple-secundary);
     }
     
     h2 {
       font-size: 1.3rem;
-      color: var(--cinza);
+      color: var(--fontcolor);
     }
     
     /* HEADER */
@@ -66,8 +65,8 @@
     
     .links a {
       display: block;
-      color: var(--branco);
-      background-color: var(--roxo-escuro);
+      color: var(--white);
+      background-color: var(--purple-primary);
       text-align: center;
       margin: 1rem 0rem 1rem 0rem;
       padding: 1rem 10rem;
@@ -77,7 +76,7 @@
     
     .links a:hover {
       display: block;
-      background-color: var(--rosa);
+      background-color: var(--purple-secundary);
       animation: mouseHover 0.8s ease; 
       text-decoration: underline;
     }
